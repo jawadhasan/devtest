@@ -1,6 +1,10 @@
 # AWS Published Apps
 
-ef migrations script --project MyApp.Data --startup-project MayApp.Web --idempotent --output /src/database/MyApp.sql
+	Prepare Migration Scripts:
+	
+	- ef migrations script --project MyApp.Data --startup-project MayApp.Web --idempotent --output /src/database/MyApp.sql
 
-
+	Prepare .Net Core Lambda Setup
+	
+	- https://dev.to/sunilkumarmedium/build-a-serverless-dotnet-core-web-api-with-aws-lambda-and-api-gateway-22dd
 
