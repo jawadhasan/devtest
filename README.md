@@ -8,3 +8,7 @@
 	
 	- https://dev.to/sunilkumarmedium/build-a-serverless-dotnet-core-web-api-with-aws-lambda-and-api-gateway-22dd
 
+	Prepare Angular App
+	
+	- Deploy it to S3
+
