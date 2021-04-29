@@ -1,11 +1,15 @@
 # AWS Published Apps
 
 	Prepare Migration Scripts:
-	
+	- CREATE DATABASE fmidentityserver;
 	- ef migrations script --project MyApp.Data --startup-project MayApp.Web --idempotent --output /src/database/MyApp.sql
 	- sudo -i -u postgres
 	- psql
-	- sudo  -u postgres psql -d fmidentityserver -a -f fmscript.sql
+
+	  sudo  -u postgres psql -d fmidentityserver -a -f fmscript.sql
+
+sudo  -u postgres psql -d fmcoredb -a -f fmAPIscript.sql
+	  
 
 	Prepare .Net Core Lambda Setup
 	
