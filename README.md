@@ -7,8 +7,8 @@
 	- psql
 
 	  sudo  -u postgres psql -d fmidentityserver -a -f fmscript.sql
-
-sudo  -u postgres psql -d fmcoredb -a -f fmAPIscript.sql
+	  sudo  -u postgres psql -d fmcoredb -a -f fmAPIscript.sql
+	  sudo  -u postgres psql -d fmidentityserver -a -f idpdata3.sql
 	  
 
 	Prepare .Net Core Lambda Setup
@@ -19,3 +19,7 @@ sudo  -u postgres psql -d fmcoredb -a -f fmAPIscript.sql
 	
 	- Deploy it to S3
 
+==================================================================
+
+alice
+Pass123$
