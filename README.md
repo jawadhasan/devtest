@@ -1,5 +1,10 @@
 # AWS Published Apps
 
+SSH to EC2
+
+ssh -i fm-keypair.pem ec2-user@3.65.103.170 1
+
+
 	Prepare Migration Scripts:
 	- CREATE DATABASE fmidentityserver;
 	- ef migrations script --project MyApp.Data --startup-project MayApp.Web --idempotent --output /src/database/MyApp.sql
